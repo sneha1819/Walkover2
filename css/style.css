@@ -1,0 +1,276 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: #eaeaea;
+  overflow: hidden;
+  padding: 1vh 2vw 1vh 6vw;
+  margin: 0px;
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo img {
+  height: 15vh;
+}
+.logo {
+  padding: 0%;
+  margin: 0%;
+  width: 50vw;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+.menu {
+  align-items: center;
+  margin: 0px;
+  float: right;
+  padding: 0vw 1vw;
+  width: 50vw;
+  text-align: end;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #100051;
+  padding: 1vh 1vw;
+}
+
+.menu a:hover {
+  background-color: #dfdfdf;
+  border-radius: 50vw;
+  font-weight: bold;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(30, 5, 77, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../image/cab.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 200%;
+}
+.button {
+  margin: auto;
+  width: fit-content;
+  padding: 2vh 2vw;
+  font-size: large;
+  background-color: #100051;
+  color: white;
+  border-radius: 1vw;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+.posts {
+  display: inline-block;
+  padding: 1vh;
+}
+.posts section {
+  padding: 2vh 2vw;
+  background-color: #100051;
+  align-content: space-around;
+  box-sizing: border-box;
+  width: 30vw;
+  margin: 0.5vw;
+  color: white;
+  float: left;
+}
+
+.posts section img {
+  width: 26vw;
+  height: 30vh;
+}
+
+.post-content {
+  padding-top: 1vh;
+}
+
+.footer {
+  width: 100%;
+  font-size: 1vw;
+  padding: 1vw;
+  background-color: #eaeaea;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  padding: 1vw 01.5vw;
+}
+
+.footer ul li a:hover {
+  background-color: rgb(250, 240, 240);
+}
+.footer ul li {
+  display: inline;
+}
+.footer .ul {
+  margin: auto;
+  width: fit-content;
+  margin-bottom: 1vh;
+}
+
+.footer .content img {
+  width: 5vw;
+  height: 5vw;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: fit-content;
+}
+
+.vertical-line {
+  display: inline-block;
+  border-left: 1px solid #ccc;
+  margin: 1vh 2vh;
+  height: 4vw;
+}
+
+.footer p {
+  width: 20vw;
+  margin: 0px;
+  padding: 0px;
+  font-size: 1vw;
+}
+.col {
+  background: #fcfdfd;
+  margin: auto;
+  width: fit-content;
+  align-items: center;
+
+  height: 100vh;
+  padding: 5rem 3.5rem;
+}
+
+h1,
+label,
+button {
+  font-family: sans-serif;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 300;
+  padding-bottom: 1vw;
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 0.625rem;
+}
+
+form {
+  width: 31.25rem;
+  position: relative;
+  margin-top: 2rem;
+  padding: 1rem 0;
+}
+
+input,
+textarea,
+label {
+  width: 40vw;
+  display: block;
+}
+
+p,
+placeholder,
+input,
+textarea {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #100051;
+}
+
+input,
+textarea {
+  color: #100051;
+  font-weight: 500;
+  background: #fcfdfd;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 0.5rem 0;
+  margin-bottom: 1rem;
+  outline: none;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: 300;
+  background: #100051;
+  color: #fcfdfd;
+  width: 10rem;
+  height: 2.25rem;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+input:hover,
+textarea:hover,
+button:hover {
+  opacity: 0.5;
+}
+
+@media only screen and (max-width: 750px) {
+  .logo {
+    width: 8rem;
+  }
+  h1 {
+    font-size: 1.75rem;
+  }
+  p {
+    font-size: 0.7rem;
+  }
+  input,
+  textarea,
+  button {
+    font-size: 0.65rem;
+  }
+
+  button {
+    width: 7rem;
+  }
+  .menu {
+    font-size: 10px;
+  }
+  .posts {
+    display: block;
+  }
+  .posts section {
+    float: none;
+    width: 100%;
+    margin-bottom: 1vh;
+  }
+  .posts section img {
+    width: 85vw;
+  }
+}
