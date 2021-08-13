@@ -273,4 +273,20 @@ button:hover {
   .posts section img {
     width: 85vw;
   }
+
+}
+.top{
+   position: fixed;
+   background-color: #100051;
+   border-radius: 5px;
+   bottom: 10px;
+   float: right;
+   left: 90%;
+   padding: 5px 10px;
+   
+}
+.top a{
+   text-decoration: none;
+   color: white;
+
 }
