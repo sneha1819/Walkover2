@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .box2,
+        .box1 {
+            height: 600px;
+            width: 600px;
+            background: orange;
+            margin: 1em;
+            padding: 1em;
+        }
+
+        .box2 .container1,
+        .container2 {
+            margin: 1em;
+            padding: 1em;
+            height: 250px;
+            background: skyline;
+        }
+
+        .box1 {
+            display: flex;
+            flex-direction: row;
+
+        }
+
+        .box1 .container3,
+        .container4 {
+
+            height: 200px;
+            width: 200px;
+            margin: 1em;
+        }
+
+
+
+        /* Go to top */
+        .green {
+            background-color: var(--green);
+            position: fixed;
+            right: 0;
+            bottom: 0;
+        }
+
+        .green a {
+            padding: 10px;
+            color: var(--white);
+            text-decoration: none;
+        }
+
+        .green a:hover {
+            text-decoration: none !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container info text-center mt-4">
+        <h1>Walkover University Program</h1>
+        <h2>Final Assessment for 3rd week</h2>
+        <h3>-sneha sharma</h3>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-12 col-md-4 box2">
+                <div class="container1" style="background-color: skyblue;">
+                    <div></div>
+                </div>
+                <div class="container2" style="background-color: skyblue;">
+                    <form action="">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="email">
+                        <button>Submit</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 box1">
+                <div class="container3" style="background-color: skyblue;">
+
+                </div>
+                <div class="container4" style="background-color: skyblue;">
+
+                </div>
+                <div class="container5" style="background-color: skyblue;">
+
+                </div>
+            </div>
+
+            <div class="green">
+                <a href="#">
+                    Go To Top
+                </a>
+            </div>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
